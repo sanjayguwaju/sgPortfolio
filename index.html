@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Below meta is putted to make it avaliable in Mobile devices also -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SanjayGuwaju Portfolio Website</title>
+
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+    <!-- integrity="sha256-46qynGAkLSFpVbEBog43vNhfrOj+BmwXdxFgVK/Kvc="crossorigin="anonymous"/> -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+
+</head>
+<body>
+
+
+    <header>  
+        <div class="logo">
+            <img src="img/icon-s.png" alt="">
+        </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    </ul>
+                </nav>
+    </header>
+    
+    
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section_title section__title--intro">
+            Hi, I am <strong>Sanjay Guwaju</strong>
+        </h1>
+        <p class="section__subtitle--intro">front-end-dev</p>
+        <img src="img/sanjayguwaju.jpg" alt="picture of sanjay putting in CV's" class="intro__img">
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do </h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design Development</h3>
+                <p> On the topic of the Design and  Development I am at the beginner level and I am learning lots of thing. I am still learning Website Development.
+                    I am learning about CSS. CSS makes us alot things about learning styles. It helps us to design us page with full of the different styles.
+
+                </p>
+            </div> <!-- /service  -->
+            
+            <div class="service">
+                <h3>Coding in Backend</h3>
+                <p>
+                    As we talk about he backend part I love to do it. I am currently using Node.js for the Backend Services.
+                    For the database storage i am using Mongo DB. I love to do using Express and NPM packages for the extra functionality.
+                    Main features of the backend is it makes pages dynamic. It makes us more interactive and We can able to store more information tha usually.
+                </p>
+            </div> <!-- /service  -->
+
+            <div class="service">
+                <h3>Android Developer</h3>
+                <p>
+                    In the field of Android Development, I am at the beginner level too. I am currently learning Java. My plans is to move to Kotlin.
+                    Then I will be using framework like Flutter. I am using Android Studio for the Development Process. I have plans to make alot of apps for the Android Platform.
+                </p>
+            </div> <!-- /service  -->
+        </div>
+
+        <a href="#work" class="btn"> My Work</a>
+    </section>
+
+
+    <!-- About me -->
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Designer & Developer based out of Nepal</p>
+
+        <div class="about-me__body">
+            <p>Hi Everyone This is Sanjay Guwaju. I am currently a student at ISMT (International Schoolo of Management and Technology).
+                I am learning Web Development on myself. I am learning Android Development too. Besides that I am interested in Video Editing, Vlogging,
+                Writing and Designing.
+            </p>
+            <p>I am from Janakpur which is at Province No 2. Actually I belong from a small village called Bharatpur which is in Ganeshman Charnath Muncipality.
+                That place is usually famous by market name of Birendrabazaar.
+            </p>
+        </div>
+    
+        <img src="img/sanjayprofessional.jpg" alt="sanjay sitting professionally" class="about-me__img">
+    </section>
+
+    <!-- My work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio Item 01 -->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="img/mywork2.jpg" alt="" class="portfolio__img">
+            </a>
+
+             <!-- Portfolio Item 02 -->
+             <a href="portfolio-item.html" class="portfolio__item">
+                <img src="img/mywork2.jpg" alt="" class="portfolio__img">
+            </a>
+
+             <!-- Portfolio Item 03 -->
+             <a href="portfolio-item.html" class="portfolio__item">
+                <img src="img/mywork4.jpg" alt="" class="portfolio__img">
+            </a>
+
+             <!-- Portfolio Item 04 -->
+             <a href="#" class="portfolio__item">
+                <img src="img/mywork4.jpg" alt="" class="portfolio__img">
+            </a>
+
+             <!-- Portfolio Item 05 -->
+             <a href="#" class="portfolio__item">
+                <img src="img/mywork5.jpg" alt="" class="portfolio__img">
+            </a>
+
+             <!-- Portfolio Item 06 -->
+             <a href="#" class="portfolio__item">
+                <img src="img/mywork5.jpg" alt="" class="portfolio__img">
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:sanjayguwaju@gmail.com" class="footer__link">sanjayguwaju@gmail.com</a>
+        <ul class="social-list">
+             
+            <li class="social-list__item">
+                <a  class="social-list__link" href="http:facebook.com">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a  class="social-list__link" href="http:facebook.com">
+                    <i class="fab fa-google"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a  class="social-list__link" href="http:facebook.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
